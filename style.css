@@ -1,0 +1,136 @@
+.h{
+    
+    align-items: flex-end;
+    height: 40px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+   
+} 
+.t{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 70px;
+    
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(249, 242, 249);
+    border: 1px solid rgb(183, 172, 172);
+    background-color: rgb(52, 1, 45);
+    border-radius: 10px;
+   
+
+}
+a:hover{
+    background-color: red;
+    color: wheat;
+}
+/* .img{
+    height: 100px;
+    width: 100px;
+} */
+.food{
+
+    border: 2px solid lightsalmon;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+    gap:10px
+}
+.food img{
+
+    width: 70%;
+}
+@media screen and (max-width:576px) {
+    .food{
+        background-color: olive;
+    }
+}
+/* medium device*/
+
+@media screen and (min-width: 577px) and (max-width:999px){
+    .food{
+        background-color:blueviolet ;
+    }
+} 
+
+
+
+footer {
+  background-color: rgb(217, 42, 42);
+  color: white;
+  bottom: 0;
+  width: 100vw;
+  font-size: 16px;
+}
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.ft-1{
+    padding: 40px;
+    margin-left: 10px;
+    margin-top: 0px;
+    gap: 0px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 15px;
+    
+}
+.v{
+    text-decoration: underline;
+    color: red;
+    font-size: large;
+    
+}
+.pf{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-around;
+    background-image: url(/images.jfif);
+    background-size: cover;
+    backface-visibility: unset;
+   background-position-x: left;
+   
+}
+     .r{
+        background-color: lightskyblue;
+        color: blue;
+     }
+     button{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+     }
+     h2{
+        background-color: rgb(217, 42, 42);
+        color: wheat;
+        border: none;
+        padding: 4px 4px gray;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 4px 4px salmon;
+
+     }
+     h4{
+        font-size: medium;
+        color: black;
+        height: 30px;
+        width: 90px;
+     }
